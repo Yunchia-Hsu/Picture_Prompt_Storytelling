@@ -2,7 +2,12 @@
 A Hugging Face Space demo that takes an uploaded image, uses a vision‐to‐text model to describe it, feeds the description into ChatGPT to generate a fun story, then converts the story to speech with Microsoft’s SpeechT5 TTS model.
 
 
+[▶️check this Demo](https://yh24hsu-picture-to-voicestory-demo.hf.space/?__theme=light&deep_link=0_a1CM-lUkE)
+
+<img src="https://github.com/Yunchia-Hsu/Picture_Prompt_Storytelling/blob/main/screenshot.png" alt="Game Screenshot" width="900"/>
+
 [▶️ Try it live on Hugging Face Spaces](https://huggingface.co/spaces/yh24hsu/picture_to_voicestory_demo)
+
 
 ---
 
