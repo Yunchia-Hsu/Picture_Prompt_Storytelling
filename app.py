@@ -3,7 +3,7 @@ import soundfile as sf
 from transformers import SpeechT5Processor, SpeechT5ForTextToSpeech, SpeechT5HifiGan
 from datasets import load_dataset
 from transformers import pipeline
-#LLMChain connect multi models and   OpenAI  endpoint
+#LLMChain connect multi models and OpenAI  endpoint
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 load_dotenv()
 openai_key = os.getenv("OPENAI_API_KEY")
 # if openai_key is None:
-#     raise ValueError("Please set the OPENAI_API_KEY environment variable.")
+#     raise ValueError("set the OPENAI_API_KEY")
 
 
 #image to text 
