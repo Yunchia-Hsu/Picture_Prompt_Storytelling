@@ -3,7 +3,7 @@ import soundfile as sf
 from transformers import SpeechT5Processor, SpeechT5ForTextToSpeech, SpeechT5HifiGan
 from datasets import load_dataset
 from transformers import pipeline
-#LLMChain 連接多個預測模型  OpenAI 掉用街口
+#LLMChain connect multi models and   OpenAI  endpoint
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
